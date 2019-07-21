@@ -1,5 +1,5 @@
 def diagonalDifference(arr):
-    """Calculate the absolute difference between the sums of a square matrix,  diagonals.
+    """Calculate the absolute difference between the sums of a square matrix's diagonals.
  """
     size = len(arr)
     left_dia = 0
