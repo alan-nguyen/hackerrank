@@ -1,10 +1,9 @@
 def is_leap(year):
     """check if the year is leap or not"""
-    if year % 4 == 0:
-        return True
-    elif year % 100 == 0 and year % 400 == 0:
-        return True
-    else:
-        return False
+    return year % 4 == 0 and (year % 400 == 0 or year % 100 != 0)
+
+# test case
+print(is_leap(1800))  # Should be False
+print(is_leap(2000))  # Should be True
 
 
