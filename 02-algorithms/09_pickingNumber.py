@@ -11,3 +11,6 @@ def pickingNumbers(a):
     return max
 
 
+# test case
+a = [1, 1, 2, 2, 4, 4, 5, 5, 5]
+print(pickingNumbers(a))
