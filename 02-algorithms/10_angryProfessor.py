@@ -21,3 +21,7 @@ def angryProfessor(k, a):
         return True
 
 
+# test case
+print(angryProfessor(3, [-1, -3, 0, 0, 9, 6]))  # Should be False as 4 students are on time > threshold 3
+print(angryProfessor(2, [-1, 2, 4, 5]))  # Should be True as 1 student is on time < threshold 1
+
