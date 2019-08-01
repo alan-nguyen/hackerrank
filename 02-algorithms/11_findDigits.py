@@ -8,4 +8,6 @@ def findDigits(n):
     return count
 
 
-
+# test case
+print(findDigits(111))  # Should be 3
+print(findDigits(12))  # Should be 2
