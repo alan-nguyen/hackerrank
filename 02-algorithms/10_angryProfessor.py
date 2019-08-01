@@ -1,5 +1,10 @@
 def angryProfessor(k, a):
-
+    """
+    Given the arrival time of each student and a threshold number of attendees, determine if the class is canceled.
+    :param k: int threshold for minimum on time student
+    :param a: array of arrival time of students
+    :return: Class cancel
+    """
     count = 0
 
     # counting students on time
