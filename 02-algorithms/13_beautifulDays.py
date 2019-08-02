@@ -3,3 +3,5 @@ def beautifulDays(i, j, k):
     return (sum(beautifulDays))
 
 
+# test case
+print(beautifulDays(20, 23, 6))  # Should be 2
