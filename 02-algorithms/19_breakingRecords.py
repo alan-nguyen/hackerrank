@@ -11,3 +11,6 @@ def breakingRecords(scores):
     return cm, cl
 
 
+# test case
+scores = [12, 24, 10, 24]
+print(breakingRecords(scores))
