@@ -8,3 +8,8 @@ def catAndMouse(x, y, z):
     else:
         return'Mouse C'
 
+
+# test case
+print(catAndMouse(6, 1, 4))  # Should be Cat A
+print(catAndMouse(1, 5, 4))  # Should be Cat B
+print(catAndMouse(3, 9, 6))  # Should be Mouse C
